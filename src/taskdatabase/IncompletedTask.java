@@ -11,7 +11,12 @@ package taskdatabase;
  * @author walter
  */
 public class IncompletedTask extends Task {
-    void display() {
-        
-    } 
+ //   void display() {
+  //      
+  //  } 
+    IncompletedTask (String title){
+        this.title = title;
+        this.statusIcon="-";
+
+    }
 }

@@ -11,10 +11,10 @@ package taskdatabase;
  * @author walter
  */
 public class Task {
-    String statuscon;
+    String statusIcon;
     String title;
     
     void display() {
-            System.out.println(statuscon + " " + title);
+            System.out.println(statusIcon + " " + title);
     }
 }

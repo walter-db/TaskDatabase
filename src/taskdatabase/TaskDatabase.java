@@ -15,16 +15,12 @@ public class TaskDatabase {
     LinkedList<Task> tasks = new LinkedList<Task>();
                 
     void addTask(String title) {
-        Task task = new Task();
-        task.title = title;
-        task.statuscon = "-";
+        Task task = new IncompletedTask(title);
         tasks.add(task);
     }
               
     void addCompletedTask(String title) {
-        Task task = new CompletedTask();
-        task.title = title;
-        //task.statuscon = "+";
+        Task task = new CompletedTask(title);
         tasks.add(task);
         
         

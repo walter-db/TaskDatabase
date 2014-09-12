@@ -12,7 +12,8 @@ package taskdatabase;
  */
 public class CompletedTask extends Task {
     
-    CompletedTask (){
-        this.statuscon="X";
+    CompletedTask (String title){
+        this.statusIcon="X";
+        this.title = title;
     }
 }
