@@ -12,4 +12,7 @@ package taskdatabase;
  */
 public class CompletedTask extends Task {
     
+    CompletedTask (){
+        this.statuscon="X";
+    }
 }

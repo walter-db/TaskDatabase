@@ -24,7 +24,7 @@ public class TaskDatabase {
     void addCompletedTask(String title) {
         Task task = new CompletedTask();
         task.title = title;
-        task.statuscon = "+";
+        //task.statuscon = "+";
         tasks.add(task);
         
         
