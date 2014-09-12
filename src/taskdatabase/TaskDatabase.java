@@ -27,6 +27,7 @@ public class TaskDatabase {
         task.statuscon = "+";
         tasks.add(task);
         
+        
     }
     
     void displayAll() {
